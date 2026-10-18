@@ -1,0 +1,110 @@
+<html>
+<head>
+    <title>Post COVID-19</title>
+    <style>
+        /* Estilo para el efecto de sustitución al pasar el cursor (Rollover) */
+        .img-container {
+            position: relative;
+            width: 170px;
+            height: 60px;
+            display: inline-block;
+        }
+        .img-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 4px;
+            transition: opacity 0.2s ease-in-out;
+        }
+        /* La imagen normal está visible por defecto */
+        .img-container .img-normal {
+            opacity: 1;
+        }
+        /* La imagen de sustitución está oculta por defecto */
+        .img-container .img-sustitucion {
+            opacity: 0;
+        }
+        /* Al pasar el cursor, se invierten las opacidades */
+        .img-container:hover .img-normal {
+            opacity: 0;
+        }
+        .img-container:hover .img-sustitucion {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+
+<table border="1" width="100%" height="100%" cellspacing="0" cellpadding="0">
+    <tr height="150">
+        <td style="background-image: url('botones/baner covid.jpeg'); background-size: cover; background-position: center;">
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="middle" style="padding: 0;">
+            <table border="1" width="100%" height="100%" cellspacing="0" cellpadding="0">
+                <tr align="center" style="font-size: 18px;">
+                    <!-- Menú Izquierdo -->
+                    <td width="20%" bgcolor="black" style="color: white;" valign="top">
+                        <p style="margin-top: 10px;">Menu Izq</p>
+                        <div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
+                            <a href="#" target="cargar-contenido">
+                                <div class="img-container">
+                                    <img src="botones/boton 1.jpeg" class="img-normal" alt="Botón 1">
+                                    <img src="botones/boton 1.1.jpeg" class="img-sustitucion" alt="Sustitución 1">
+                                </div>
+                            </a>
+                            <a href="#" target="cargar-contenido">
+                                <div class="img-container">
+                                    <img src="botones/boton 2.jpeg" class="img-normal" alt="Botón 2">
+                                    <img src="botones/boton 2.2.jpeg" class="img-sustitucion" alt="Sustitución 2">
+                                </div>
+                            </a>
+                            <a href="#" target="cargar-contenido">
+                                <div class="img-container">
+                                    <img src="botones/boton 3.jpeg" class="img-normal" alt="Botón 3">
+                                    <img src="botones/boton 3.3.jpeg" class="img-sustitucion" alt="Sustitución 3">
+                                </div>
+                            </a>
+                            <a href="#" target="cargar-contenido">
+                                <div class="img-container">
+                                    <img src="botones/boton 4.jpeg" class="img-normal" alt="Botón 4">
+                                    <img src="botones/boton 4.4.jpeg" class="img-sustitucion" alt="Sustitución 4">
+                                </div>
+                            </a>
+                            <a href="#" target="cargar-contenido">
+                                <div class="img-container">
+                                    <img src="botones/boton 5.jpeg" class="img-normal" alt="Botón 5">
+                                    <img src="botones/boton 5.5.jpeg" class="img-sustitucion" alt="Sustitución 5">
+                                </div>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="80%" bgcolor="#a497db" valign="top">
+                        <table border="1" width="100%" height="30" cellspacing="0" cellpadding="2">
+                            <tr>
+                                <td align="center" valign="middle" width="15%"> 1</td>
+                                <td align="center" valign="middle" width="70%"> 2</td>
+                                <td align="center" valign="middle" width="15%"> 3</td>
+                            </tr>
+                        </table>
+                        <div style="padding: 20px; text-align: center;">
+                            Cuerpo
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr height="60" bgcolor="#c7f0f8">
+        <td align="center" style="font-size: 18px; font-weight: bold;">Pie</td>
+    </tr>
+</table>
+
+</body>
+</html>
